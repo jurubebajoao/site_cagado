@@ -1,0 +1,56 @@
+@charset "UTF-8" ;
+a{
+    text-decoration: none;
+    color: black;
+    padding: right 0px; ;
+    
+    
+}
+nav a{
+    padding-right: 200px;
+    
+
+}
+
+body{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin: 0;
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif    ;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    color: blueviolet;
+}
+body{
+    margin: 0;
+    background-color: ;
+}
+article{
+    border: solid;
+    position: relative;
+    top: 50px;
+    border-color: rgb(255, 0, 0);
+    border-radius: 10px;
+
+}
+section{
+    display: flex;
+}
+footer{
+    position: relative;
+    top: 50px;
+}
+nav .asdfg{
+    margin: 0;
+    text-align: center;
+}
+header{
+    background-color: black;
+}
+
+

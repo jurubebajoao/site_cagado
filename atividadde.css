@@ -1,0 +1,126 @@
+@charset "UTF-8" ;
+/* Resetando alguns estilos padrões do navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Definindo o fundo da página com um tema escuro */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212; /* Fundo preto */
+    color: #e0e0e0; /* Texto claro */
+    line-height: 1.6;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #1f1f1f; /* Fundo escuro */
+    color: #fff; /* Texto branco */
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 5px solid #444; /* Linha cinza clara */
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
+/* Estilos para o menu de navegação */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.asdfg {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.asdfg a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.asdfg a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 40px 20px;
+}
+
+/* Estilos para os artigos */
+article {
+    background-color: #1f1f1f; /* Fundo escuro */
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+article:hover {
+    transform: translateY(-5px); /* Efeito de elevação */
+}
+
+article h3, article h4 {
+    color: #f1f1f1; /* Cor dos títulos em branco */
+    margin-bottom: 10px;
+}
+
+article p {
+    color: #b0b0b0; /* Texto em cinza claro */
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 3px solid #444;
+}
+
+footer p {
+    font-size: 1rem;
+    opacity: 0.7;
+}
+
+/* Responsividade: Artigos em telas menores */
+@media (min-width: 768px) {
+    article {
+        width: 48%; /* Artigos lado a lado */
+        display: inline-block;
+        margin-right: 2%;
+    }
+
+    article:nth-child(2n) {
+        margin-right: 0; /* Ajuste no espaçamento */
+    }
+}
+
+/* Adicionando um pouco de espaço em torno da página */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
